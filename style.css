@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 970px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.header__title {
+  margin-bottom: 15px;
+}
+
+.header__subtitle {
+  color: crimson;
+  margin-bottom: 15px;
+}
+
+.hero {
+  margin-bottom: 30px;
+}
+
+.hero__card {
+ display: flex; 
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main__title {
+  margin-bottom: 20px;
+  border-left: 10px solid crimson;
+  padding-left: 10px;
+}
+
+.hero__text {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.hero__text:last-child {
+  margin-bottom: 0;
+}
+
+.skills {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.hobby {
+  width: 25%;
+  display: flex;
+  background-color: #e5ffe7;
+  border-radius: 10px;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.hobby__list {
+  list-style: none;
+}
+
+.hobby__item {
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+.hobby__item:last-child {
+  margin-bottom: 0;
+}
+
+.hobby__item:hover {
+  color: crimson;
+}
+
+.experience {
+  width: 75%;
+  background-color: #ffe5e5;
+  padding: 10px;
+}
+
+.experience__table {
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.experience__table th, td {
+  padding: 10px 50px 10px 0;
+}
+
+.school {
+  background-color: #fff9dc;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.school ul {
+  padding-left: 20px;
+}
+
+.school ul li {
+  list-style: none;
+}
+
+.school__link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.school__link:hover {
+  color: crimson;
+}
+
+.school__link:active {
+  color: greenyellow;
+}
+
+.contact {
+  background-color: azure;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-top {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact__id {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__id-input {
+  width: 50%;
+}
+
+.contact__form-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.contact__textarea {
+  width: 50%;
+  resize: none;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  background-color: antiquewhite;
+  padding-left: 10px;
+}
+
+textarea {
+  border: none;
+  background-color: antiquewhite;
+}
+
+.btn {
+  width: 25%;
+  padding: 5px 0;
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+  background-color: seashell;
+  border-radius: 10px;
+}
+
+.social__list {
+  list-style: none;
+  display: flex;
+}
+
+.social__item {
+  margin-right: 20px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .hero__card {
+    flex-direction: column;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .hobby {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .experience {
+    width: 100%;
+  }
+}
+ 
